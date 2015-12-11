@@ -45,21 +45,21 @@ Remember, this is an elective class. You chose to study this class, so be prepar
 ## Grading
 
 - There will be homeworks
-    - The score for all homeworks is 20% of your grade.
+    - The score for all homeworks is `20%` of your grade.
 - 2 Main projects
-    - Project 1 25%
+    - Project 1 `25%`
         - Easy and simple project
         - Prove that you've learned something in the first 6 weeks
-    - Project 2 30%
+    - Project 2 `30%`
         - Real life application
         - Atleast 5 models in database
         - Fully deployed in Digital Ocean or provided server.
     - You will be graded by 
         - amount of effort you put in to making things work.
         - project completeness
-- Participation and Bonus 20%
-    - You will also be graded by how much you've improved in 12 weeks. So you can still get B,B+ even if you lose 10% from your projects.
-- Attendance 5%
+- Participation and Bonus `20%`
+    - You will also be graded by how much you've improved in 12 weeks. So you can still get B,B+ even if you lose `10%` from your projects.
+- Attendance `5%`
 
 ### WARNINGS
 
