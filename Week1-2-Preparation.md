@@ -2,8 +2,11 @@
 ## Internet Programming
 
 ## Preparation
-- OS
+- OS + Apps
     - MAC
+        - Command Line Tools (must match your OS)
+        - Xcode from App Store.
+            - Open Xcode once and `enable` developer mode.
     - Ubuntu Desktop
 - GIT
     - MAC (preinstalled with os)
