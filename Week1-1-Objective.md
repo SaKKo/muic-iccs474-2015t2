@@ -54,11 +54,11 @@ Remember, this is an elective class. You chose to study this class, so be prepar
         - Real life application
         - Atleast 5 models in database
         - Fully deployed in Digital Ocean or provided server.
-    - You will be graded by 
+    - You will be graded by
         - amount of effort you put in to making things work.
         - project completeness
 - Participation and Bonus `20%`
-    - You will also be graded by how much you've improved in 12 weeks. So you can still get B,B+ even if you lose `10%` from your projects.
+    - You will also be graded by how much you've improved in 12 weeks.
 - Attendance `5%`
 
 ### WARNINGS
@@ -71,19 +71,11 @@ Remember, this is an elective class. You chose to study this class, so be prepar
 
 > Helping your friends isn't doing their work for them, but it is guiding them to be able to do it themselves.
 
-### Starting
-
-1. signup Github.com, bitbucket.org, heroku.com
-
 ### NOTE
 
-- You must invite `sakko` to all your ICCS474 repositories.
+- You must invite `sakko` to all your ICCS474 repositories. (`sakko` for both github or bitbucket)
     - You will not receive any score for your exercise or homework if you did not invite `sakko` to your repository
     - If you think something is wrong with your current code, do not delete your code. Always create a new branch using git then commit and push it. And start a new branch.
     - Any deleted code is counted as 0 work done = 0 point.
     - After completing any homework, you must send email to `saklism@gmail.com` with git repository link.
     - Any commits to repository after deadline are considered as late.
-
-
-
-
