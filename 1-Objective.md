@@ -44,15 +44,15 @@ Remember, this is an elective class. You chose to study this class, so be prepar
 
 ## Grading
 
-- There will be homeworks
-    - The score for all homeworks is `20%` of your grade.
+- There will be homework
+    - The score for all homework is `20%` of your grade.
 - 2 Main projects
     - Project 1 `25%`
         - Easy and simple project
         - Prove that you've learned something in the first 6 weeks
     - Project 2 `30%`
         - Real life application
-        - Atleast 5 models in database
+        - At least 5 models in database
         - Fully deployed in Digital Ocean or provided server.
     - You will be graded by
         - amount of effort you put in to making things work.
