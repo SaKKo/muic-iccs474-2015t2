@@ -12,6 +12,19 @@
     - MAC (preinstalled with os)
     - Ubuntu (`sudo apt-get install git-core`)
     - search for github ssh tutorial for advance setup.
+- Ruby
+    - We will be using Ruby
+    - MAC
+        - Preinstalled but outdated.
+        - install RVM
+            - run `curl -L https://get.rvm.io | bash -s stable --autolibs=enabled`
+            - run `rvm requirements`
+            - run `rvm install 2.2.1` which is the latest version.
+    - Ubuntu
+        - install RVM
+            - run `curl -L https://get.rvm.io | bash -s stable --autolibs=enabled`
+            - run `rvm requirements`
+            - run `rvm install 2.2.1` which is the latest version.
 
 ## Text Editor
 - Atom

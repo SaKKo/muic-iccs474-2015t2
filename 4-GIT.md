@@ -23,3 +23,9 @@ git push
 git pull
 git clone <GIT URL> <TARGET PATH>
 ```
+
+## Basic Branching
+
+![Image](https://raw.githubusercontent.com/SaKKo/muic-iccs474-2015t2/master/assets/git-branch.png)
+
+## Exercise
