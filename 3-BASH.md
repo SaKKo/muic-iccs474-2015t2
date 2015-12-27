@@ -18,7 +18,7 @@ mkdir <FOLDERNAME>
 
 ### Bash commands
 
-Code reference from Live example
+Commands reference from Live example
 
 ```bash
 pwd               # present working directory
