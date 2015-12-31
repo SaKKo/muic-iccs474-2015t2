@@ -47,7 +47,7 @@ Remember, this is an elective class. You chose to study this class, so be prepar
 - There will be homework
     - The score for all homework is `20%` of your grade.
 - 2 Main projects
-    - Project 1 `25%`
+    - Project 1 `20%`
         - Easy and simple project
         - Prove that you've learned something in the first 6 weeks
     - Project 2 `30%`
@@ -57,9 +57,10 @@ Remember, this is an elective class. You chose to study this class, so be prepar
     - You will be graded by
         - amount of effort you put in to making things work.
         - project completeness
-- Participation and Bonus `20%`
+- Participation and Bonus `5%++`
     - You will also be graded by how much you've improved in 12 weeks.
 - Attendance `5%`
+- Final Exam `20%`
 
 ### WARNINGS
 
