@@ -8,6 +8,7 @@
     - 1.5% if you clean installed your pc and didn't get it to work.
     - 1% if you didn't clean install and didn't get it to work.
     - 0% for any other cases.
+- Due 18 January 2015 (Beginning of class)
 
 ### If your Mac OS is OUTDATED, it is a good time to update and a good time to learn how to do it. (skip this if you are on ubuntu)
 
