@@ -68,3 +68,15 @@ This is one great online tutorial.
 https://www.codeschool.com/courses/try-ruby
 
 Just like python, you can start ruby shell by running `irb` in terminal. Then you can start writing ruby code there.
+
+## Think!
+
+1. Why do we need to learn bash? Is it really necessary?
+1. Is there any other version control other than git?
+1. Command Line is boring, are there tools that can be used with git?
+1. How do we ignore files so that it won't be committed into git.
+1. Why don't we want to commit everything into git?
+1. Which kind of project or file type to avoid using git?
+1. Can we version control something else that's not even a code?
+    1. Example, a MS docx file.
+    1. Is it good to version control MS docx?
