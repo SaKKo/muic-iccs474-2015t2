@@ -114,16 +114,16 @@
 
 |Result|Description|&amp+EntityName+;|&+EntityNumber+;|
 |:---:|:---|:---:|:---:|
-| |non breaking space|`nbsp`|`#160`|
-|<|less than|`lt`|`#60`|
-|>|greater than|`gt`|`#62`|
-|&|ampersand|`amp`|`#38`|
-|¢|cent|`cent`|`#162`|
-|£|pound|`pound`|`#163`|
-|¥|yen|`yen`|`#165`|
-|€|euro|`euro`|`#8364`|
-|©|copyright|`copy`|`#169`|
-|®|registered trademark|`reg`|`#174`|
+| |non breaking space|`&nbsp;`|`&#160;`|
+|<|less than|`&lt;`|`&#60;`|
+|>|greater than|`&gt;`|`&#62;`|
+|&|ampersand|`&amp;`|`&#38;`|
+|¢|cent|`&cent;`|`&#162;`|
+|£|pound|`&pound;`|`&#163;`|
+|¥|yen|`&yen;`|`&#165;`|
+|€|euro|`&euro;`|`&#8364;`|
+|©|copyright|`&copy;`|`&#169;`|
+|®|registered trademark|`&reg;`|`&#174;`|
 
 > - Is HTML a programming language? Why or why not?
 >       - HTML is a tag based syntax which is used to hold contents and page information. It usually does not contain any calculation nor styling.
@@ -138,13 +138,5 @@
 - `I am awesome.` is content or innerHTML of `sakko` tag.
 
 #### HTML Exercise
-
-- ?
-
-### CSS
-
-- ?
-
-### JS
 
 - ?
