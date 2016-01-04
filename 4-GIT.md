@@ -13,6 +13,7 @@ git init
 git status
 git add .
 git commit -am '<MESSAGE>'
+git reset --hard
 git branch <BRANCHNAME>
 git checkout <BRANCHNAME>
 git merge <BRANCHNAME>
