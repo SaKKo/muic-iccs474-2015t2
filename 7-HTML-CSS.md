@@ -107,7 +107,74 @@
 
 #### CSS
 
+CSS stands for Cascading Style Sheets
 
+    - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+    - CSS saves a lot of work. It can control the layout of multiple web pages all at once
+    - External stylesheets are stored in CSS files
+
+Why Use CSS?
+
+CSS is used to define styles for your web pages, including the design, layout and variations in display for different devices and screen sizes.
+
+CSS Solved a Big Problem
+
+HTML was NEVER intended to contain tags for formatting a web page!
+
+HTML was created to describe the content of a web page, like:
+
+`<h1>This is a heading</h1>`
+
+`<p>This is a paragraph.</p>`
+
+When tags like `<font>`, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+To solve this problem, the World Wide Web Consortium (W3C) created CSS.
+
+> CSS removed the style formatting from the HTML page!
+
+Here is how to use CSS
+
+![Image](https://raw.githubusercontent.com/SaKKo/muic-iccs474-2015t2/master/assets/css-selector.png)
+
+```css
+
+/* <p>Hello</p> */
+p {   
+    color: red;
+    text-align: center;
+}
+
+/* <p id='center'>Hello</p> */
+#center {
+    text-align: center;
+    color: red;
+}
+
+/* <p class='center'>Hello</p> */
+.center {
+    text-align: center;
+    color: red;
+}
+
+/* <h1 class='center'>Hello</h1> */
+/* Will only select .center that is in tag h1 */
+h1.center {
+    text-align: center;
+    color: red;
+}
+
+/* <h1><p class='center'>Hello</p></h1> */
+/* Will only select .center that is inside of h1 */
+h1 .center {
+    text-align: center;
+    color: red;
+}
+```
+
+Let's checkout bootstrap which will make your life a lot easier.
+
+http://getbootstrap.com/
 
 #### HTML & CSS Exercise
 
