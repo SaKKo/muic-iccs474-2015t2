@@ -1,40 +1,6 @@
 # ICCS474
 ## Internet Programming
 
-## Server Side and Client Side
-
-![Image](https://raw.githubusercontent.com/SaKKo/muic-iccs474-2015t2/master/assets/server-client.png)
-
-### Simplest way to host a file.
-
-- First check if you have python in your computer
-    - `python --version`
-    - If it shows command not found then you have to install python first.
-    - Python is bundled to every mac by default.
-- To start a simple http server.
-    - Create a folder in your workspace directory.
-        - I recommended that you start workspacing your computer by
-        - create a folder at `~/_workspace`
-        - keep all your codes separated in to project names in `~/_workspace` eg. `~/_workspace/iccs474/simple_http_server`
-    - `cd ~/_workspace/iccs474/simple_http_server`
-    - `touch index.html`
-        - Modify file's content using `vim`, `atom`, `nano`, or `subl`
-        - You can just `echo` (which will append) text into file by using this command.
-            - `echo "Hello World" >> index.html`
-    - Start the server
-        - `python -m SimpleHTTPServer 8888`
-    - open your favorite browser and browse to `http://localhost:8888`
-        - You can also try `http://your-friend-ip:8888`
-
-> ### Now let's discuss what is actually happening.
-
-> - What is localhost?
-> - What file will be served when you open `http://localhost:8888`?
-> - Does server needs to know what is inside `index.html`?
-> - Who actually use `index.html`?
-> - But the content of `index.html` is not html. Why did it worked?
-> - What is HTML?
-
 ### HTML
 
 - Hyper Text Markup Language.
@@ -46,9 +12,11 @@
     It uses a angle brackets `<>` and almost all the times come in pair.
 
     HTML Syntax example
+
     ```html
     <h1>Hello World</h1> <!-- h1 stands for HEADING 1 -->
     ```
+
 #### Preview
 
 > <h1>Hello World</h1>
@@ -137,6 +105,8 @@
 - `tanasak` and `tantitarntong` are attribute values.
 - `I am awesome.` is content or innerHTML of `sakko` tag.
 
-#### HTML Exercise
+#### CSS
+
+#### HTML & CSS Exercise
 
 https://github.com/SaKKo/muic-iccs474-2015t2-exercise-html
