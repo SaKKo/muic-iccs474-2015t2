@@ -109,9 +109,9 @@
 
 CSS stands for Cascading Style Sheets
 
-    - CSS describes how HTML elements are to be displayed on screen, paper, or in other media
-    - CSS saves a lot of work. It can control the layout of multiple web pages all at once
-    - External stylesheets are stored in CSS files
+- CSS describes how HTML elements are to be displayed on screen, paper, or in other media
+- CSS saves a lot of work. It can control the layout of multiple web pages all at once
+- External stylesheets are stored in CSS files
 
 Why Use CSS?
 
@@ -123,11 +123,28 @@ HTML was NEVER intended to contain tags for formatting a web page!
 
 HTML was created to describe the content of a web page, like:
 
-`<h1>This is a heading</h1>`
+    <h1>This is a heading</h1>
 
-`<p>This is a paragraph.</p>`
+    <p>This is a paragraph.</p>
 
 When tags like `<font>`, and color attributes were added to the HTML 3.2 specification, it started a nightmare for web developers. Development of large websites, where fonts and color information were added to every single page, became a long and expensive process.
+
+To use inline CSS
+
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello World</h1>
+
+Doesn't look so bad, what about this?
+
+
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Mercury</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Venus</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello World</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Mars</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Jupiter</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Saturn</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Uranus</h1>
+    <h1 style="color:red;border:1px solid #ccc;text-align:center;">Hello Neptune</h1>
+
 
 To solve this problem, the World Wide Web Consortium (W3C) created CSS.
 
@@ -172,6 +189,25 @@ h1 .center {
 }
 ```
 
+Let's put it together
+
+
+    <style>
+    .planet-name {
+        color: red;
+        border:1px solid #ccc;
+        text-align:center;
+    }
+    </style>
+    <h1 class="planet-name">Hello Mercury</h1>
+    <h1 class="planet-name">Hello Venus</h1>
+    <h1 class="planet-name">Hello World</h1>
+    <h1 class="planet-name">Hello Mars</h1>
+    <h1 class="planet-name">Hello Jupiter</h1>
+    <h1 class="planet-name">Hello Saturn</h1>
+    <h1 class="planet-name">Hello Uranus</h1>
+    <h1 class="planet-name">Hello Neptune</h1>
+
 Let's checkout bootstrap which will make your life a lot easier.
 
 http://getbootstrap.com/
@@ -179,3 +215,42 @@ http://getbootstrap.com/
 #### HTML & CSS Exercise
 
 https://github.com/SaKKo/muic-iccs474-2015t2-exercise-html
+
+#### CSS Notes
+
+- It works top down. Any css written first will be overrode by the one written later.
+- `<link>` tag can download files concurrently. It does not matter which files finish finish first.
+- Browser has some hard limit on concurrent connection to one domain.
+    - Read this http://www.coderanch.com/t/631345/blogs/Maximum-concurrent-connection-domain-browsers
+- You should always put your CSS under HEAD tag.
+    - So that it will show the correct styling from the first moment user loaded the page.
+    - The current browser standards look at CSS in HEAD. (though it also works in BODY but it is not advised)
+    - Loading CSS after body is loaded may caused some browser to render a blank page for a few seconds.
+        - Internet Explorer 6 to 8 will not always load CSS on time and correctly.
+
+Loading CSS in `<head>`
+
+    <!DOCTYPE html>
+    <html>
+      <head>
+        <title>Page Title</title>
+        <style>
+          @import url(../something.css);  // browser will wait until @import to load before continuing.
+          // or
+          .class-name{
+              xxx: "";
+          }
+        </style>
+        <link rel="stylesheet" href="something.css">
+      </head>
+      <body>
+      </body>
+    </html>
+
+
+QUESTION: What're the differences
+
+    something.css
+    /something.css
+    ./something.css
+    ../something.css
