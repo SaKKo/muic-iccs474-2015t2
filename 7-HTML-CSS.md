@@ -248,7 +248,7 @@ Loading CSS in `<head>`
     </html>
 
 
-QUESTION: What're the differences
+QUESTION: What're the differences between
 
     something.css
     /something.css
