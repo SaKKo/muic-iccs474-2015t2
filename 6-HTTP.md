@@ -23,7 +23,7 @@ First we will create a new folder in our workspace. I will call it `http-python`
 ```bash
 $ cd ~/_workspace
 $ mkdir http-python
-$ cd http
+$ cd http-python
 ```
 
 With our new folder, we will try to serve every static files hosted in this server.

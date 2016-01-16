@@ -162,30 +162,74 @@ p {
     text-align: center;
 }
 
-/* <p id='center'>Hello</p> */
+/*
+  <p>Hello</p>
+  <p id='center'>Hello</p>
+  <p>Hello</p>
+  <p id='center'>Hello</p>
+*/
 #center {
     text-align: center;
     color: red;
 }
 
-/* <p class='center'>Hello</p> */
+/*
+  <p>Hello</p>
+  <p class='center'>Hello</p>
+  <p>Hello</p>
+  <p class='center'>Hello</p>
+*/
 .center {
     text-align: center;
     color: red;
 }
 
-/* <h1 class='center'>Hello</h1> */
+/*
+<h1 class='center'>Hello</h1>
+<p class='center'>Hello</p>
+<h1 id='center'>Hello</h1>
+<h1 id='center' class="red">Hello</h1>
+<h1 id='center' class="red bold">Hello</h1>
+<p id='center'>Hello</p>
+*/
 /* Will only select .center that is in tag h1 */
 h1.center {
     text-align: center;
     color: red;
 }
+h1#center {
+    text-align: center;
+    color: red;
+}
+p#center {
+    text-align: center;
+    color: red;
+}
+h1#center.red {
+    text-align: center;
+    color: red;
+}
+h1.red#center {
+    text-align: center;
+    color: red;
+}
+.bold {
+  /* bold */
+}
 
-/* <h1><p class='center'>Hello</p></h1> */
+/* <h1>
+      <p class='center'>Hello</p>
+   </h1>
+   <h2 class='big'>
+     <p class='center'>Hello</p>
+   </h2> */
 /* Will only select .center that is inside of h1 */
 h1 .center {
     text-align: center;
     color: red;
+}
+h2.big p.center{
+
 }
 ```
 
