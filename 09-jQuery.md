@@ -170,6 +170,7 @@ Create a project with this body html.
 ```
 
 use jQuery
+
 1. query `EL 1` using id `then` class
 1. query `EL 2` using id `then` class
 1. query `EL 3` using id `then` class
