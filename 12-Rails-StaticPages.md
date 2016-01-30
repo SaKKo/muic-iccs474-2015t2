@@ -16,3 +16,5 @@ https://github.com/SaKKo/muic-iccs474-2015t2-static-pages
     - controller
     - helpers
     - views
+
+## Recreating the whole thing from scratch.
