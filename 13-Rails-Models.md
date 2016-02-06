@@ -1,7 +1,7 @@
 # ICCS474
 ## Internet Programming
 
-## Rails Static Pages
+## Rails Model
 
 
 https://github.com/SaKKo/muic-iccs474-2015t2-models
