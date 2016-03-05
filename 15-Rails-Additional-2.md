@@ -6,6 +6,7 @@
 - Elastic Search
     - `brew install elasticsearch`
     - `gem 'searchkick'`
+    - `gem 'foreman'`
 
 - Moving to Postgres
     - download `postgresapp` for mac

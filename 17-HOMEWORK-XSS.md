@@ -12,7 +12,7 @@ Concept is explained in class.
 - Guideline
     - Use Devise to login as multiple users.
     - Create a model called `Blog` with content:text user:references
-    - When user a create a Blog post, try creating content with `<script></script>` inside.
+    - When user a create a Comment, try creating content with `<script></script>` inside.
     - When another user try to browse to `blogs/:id`, try rendering content as HTML instead of plain text. hint: use `raw`, `<%==  %>`, `sanitize`, or `.html_safe`
 
 - Homework
